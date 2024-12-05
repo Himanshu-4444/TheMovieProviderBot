@@ -59,15 +59,15 @@ VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( Fa
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/howtoopenlinkclipmate/10') # How to open tutorial link for verification
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'adlinkfly.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'f9ddaede56a9edc706f9edc4b363154477f427cf')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'urllinkshort.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'ccc6d3333a78b2b85b0688b7ce1d3389c88acdf7')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/VisualMoviesGroup')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/VisualMovies1')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/howtoopenlinkclipmate/10') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : Visual')

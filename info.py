@@ -59,8 +59,8 @@ VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( Fa
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/howtoopenlinkclipmate/10') # How to open tutorial link for verification
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'urllinkshort.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'ccc6d3333a78b2b85b0688b7ce1d3389c88acdf7')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'earn2short.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'f14acfbab566a5c252f25eaf681d70dbde417fbd')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
